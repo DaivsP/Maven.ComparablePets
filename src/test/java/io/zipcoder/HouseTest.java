@@ -3,11 +3,10 @@ import org.junit.Assert;
 import org.junit.Before;
 import org.junit.Test;
 
-public class ApplicationTest {
-    @Before
+public class HouseTest {
     private Dog dog = new Dog("Fido", 2, 1);
-    private Cat cat = new Toucan("Sam", 2, 1);
-    private Toucan toucan = new Cat("Tom", 2, 1);
+    private Cat cat = new  Cat("Tom", 2, 1);
+    private Toucan toucan = new Toucan("Sam", 2, 1);
     private House house = new House();
 
     @Test

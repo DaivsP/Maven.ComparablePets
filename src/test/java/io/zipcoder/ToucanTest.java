@@ -6,6 +6,8 @@ import org.junit.Test;
 
 public class ToucanTest {
 
+    Toucan toucan;
+
     @Before
     public void setUp(){
         this.toucan = new Toucan("Sam", 2, 1);

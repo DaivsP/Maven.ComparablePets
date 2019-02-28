@@ -16,12 +16,12 @@ public class CatTest {
     public void setCatNameTest() {
         //Given
         Cat cat = new Cat(null, null, null);
-        String givenName = "Tom";
+        String name = "Tom";
         //When
-        cat.setName(givenName);
+        cat.setName(name);
         //Then
         String catName = cat.getName();
-        Assert.assertEquals(givenName, catName);
+        Assert.assertEquals(name, catName);
     }
 
     @Test
@@ -52,5 +52,4 @@ public class CatTest {
         //Then
         Assert.assertTrue(cat instanceof Pet);
     }
-}
 }
